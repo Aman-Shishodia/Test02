@@ -1,0 +1,46 @@
+# Structure of the project
+
+- iNoteBook
+    - backend
+            - middleware
+                - fetchuser.js
+            - models
+                - Note.js
+                - User.js
+            - routes
+                - auth.js
+                - notes.js
+            - db.js
+            - index.js
+            - package-lock.json
+            - package.json
+    - docs
+            - documentation.md
+    - frontend
+            - public
+                -index.html
+                -favicon.ico
+                -manifest.json
+                -robots.txt
+            - src
+                - components
+                    - About.js
+                    - AddNote.js
+                    - Alert.js
+                    - Home.js
+                    - Login.js
+                    - Navbar.js
+                    - Noteitem.js
+                    - Notes.js
+                    - Signup.js
+                - context/notes
+                    - noteContext.js
+                    - NoteState.js
+                - App.css
+                - App.js
+                - index.css
+                - index.js
+            - package-lock.json
+            - package.json
+    - README.md 
+
